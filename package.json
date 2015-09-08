@@ -19,6 +19,8 @@
     "coffee-script": "^1.10.0",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
+    "express-namespace": "^0.1.1",
+    "express-resource": "^1.0.0",
     "iniparser": "^1.0.5",
     "jade": "^1.11.0",
     "morgan": "^1.6.1",
