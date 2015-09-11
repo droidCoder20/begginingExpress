@@ -19,9 +19,13 @@ app.set('view engine', 'jade')
 app.set('views', __dirname + '/views')
 
 ## Use
-app.use(express.static('../../public'))
-app.use(responseTime())
 app.use(router)
+app.use(responseTime())
+app.use(require('stylus').middleware({
+    src: './public'
+    compress: true
+    }))
+app.use(express.static('../../public'))
                         
 ## Load the resourceful route handlers
 app.resource('users', require('./handlers/users'))

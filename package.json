@@ -16,6 +16,7 @@
   "author": "orlando trujillo",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.13.3",
     "coffee-script": "^1.10.0",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
